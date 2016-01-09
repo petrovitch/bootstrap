@@ -1,0 +1,31 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/Users/kennthompson/.npm-packages/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'bootstrap' ]
+2 info using npm@3.5.0
+3 info using node@v0.12.7
+4 verbose config Skipping project config: /Users/kennthompson/.npmrc. (matches userconfig)
+5 silly loadCurrentTree Starting
+6 silly install loadCurrentTree
+7 silly install readLocalPackageData
+8 silly rollbackFailedOptional Starting
+9 silly rollbackFailedOptional Finishing
+10 silly runTopLevelLifecycles Starting
+11 silly runTopLevelLifecycles Finishing
+12 silly install printInstalled
+13 verbose stack Error: ENOENT, stat '/Users/kennthompson/node_modules/lodash'
+13 verbose stack     at Error (native)
+14 verbose cwd /Users/kennthompson/Projects/bootstrap
+15 error Darwin 15.0.0
+16 error argv "node" "/Users/kennthompson/.npm-packages/bin/npm" "install" "bootstrap"
+17 error node v0.12.7
+18 error npm  v3.5.0
+19 error path /Users/kennthompson/node_modules/lodash
+20 error code ENOENT
+21 error errno -2
+22 error enoent ENOENT, stat '/Users/kennthompson/node_modules/lodash'
+23 error enoent ENOENT, stat '/Users/kennthompson/node_modules/lodash'
+23 error enoent This is most likely not a problem with npm itself
+23 error enoent and is related to npm not being able to find a file.
+24 verbose exit [ -2, true ]
